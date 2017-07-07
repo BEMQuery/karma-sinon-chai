@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## 2.0.2 – 2018-07-07
+### Fixed
+* Incorrect imports.
+
 ## 2.0.1 – 2017-07-07
 ### Fixed
 * Typo in exported function name (`isDuplicate`).
