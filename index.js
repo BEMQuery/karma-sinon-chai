@@ -48,7 +48,7 @@ function framework( files ) {
 
 	if ( !isDuplicate( chaiPath ) ) {
 		files.unshift( pattern( chaiPath ) );
-		files.push( pattern( path.join( __dirname, 'chai-adapter.js' ) ) );
+		files.push( pattern( path.join( __dirname, 'adapters/chai.js' ) ) );
 	}
 
 	/* Sinon-Chai */
