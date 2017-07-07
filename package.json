@@ -1,5 +1,5 @@
 {
-  "name": "karma-sinon-chai",
+  "name": "@bemquery/karma-sinon-chai",
   "description": "Sinon and Chai for Karma",
   "keywords": [
     "karma",
@@ -9,18 +9,19 @@
     "should"
   ],
   "version": "1.3.1",
-  "author": "Kevin Mees <kev.mees@gmail.com>",
+  "author": "Comandeer <comandeer@comandeer.pl",
   "main": "./index.js",
   "license": "MIT",
-  "homepage": "https://github.com/kmees/karma-sinon-chai",
+  "homepage": "https://github.com/BEMQuery/karma-sinon-chai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kmees/karma-sinon-chai.git"
+    "url": "https://github.com/BEMQuery/karma-sinon-chai.git"
   },
   "bugs": {
-    "url": "https://github.com/kmees/karma-sinon-chai/issues"
+    "url": "https://github.com/BEMQuery/karma-sinon-chai/issues"
   },
   "contributors": [
+    "Kevin Mees <kev.mees@gmail.com>",
     "Greg Thornton <xdissent@me.com>",
     "Tobias Kopelke <nox@raynode.de>"
   ],
