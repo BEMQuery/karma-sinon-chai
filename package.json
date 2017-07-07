@@ -28,6 +28,11 @@
     "Greg Thornton <xdissent@me.com>",
     "Tobias Kopelke <nox@raynode.de>"
   ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "peerDependencies": {
     "chai": "^3.5.0",
     "sinon": "^2.1.0",
@@ -37,6 +42,7 @@
     "lolex": "^1.6.0"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.1.1"
   }
 }
