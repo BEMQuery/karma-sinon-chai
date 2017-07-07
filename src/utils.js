@@ -13,7 +13,7 @@ function endsWith( substr ) {
 	};
 }
 
-function _isDuplicate( files, file ) {
+function isDuplicate( files, file ) {
 	let result = false;
 
 	for ( let i = 0; i < files.length; i++ ) {
