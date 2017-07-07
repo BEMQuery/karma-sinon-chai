@@ -6,8 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## 2.0.1 – 2017-07-07
+### Fixed
+* Typo in exported function name (`isDuplicate`).
+
 ## 2.0.0 – 2017-07-07
-### Changed:
+### Changed
 * It's the first version published as `@bemquery/karma-sinon-chai` with completely refactored code.
 
 ## 1.1.0
