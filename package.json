@@ -51,16 +51,19 @@
     "scope": "\\S+.*"
   },
   "peerDependencies": {
-    "chai": "^3.5.0",
-    "sinon": "^2.1.0",
-    "sinon-chai": "^2.9.0"
+    "chai": ">=3.5.0",
+    "sinon": ">=2.1.0",
+    "sinon-chai": ">=2.9.0"
   },
   "dependencies": {
     "lolex": "^1.6.0"
   },
   "devDependencies": {
+    "chai": "^4.0.2",
     "commitplease": "^2.7.10",
     "cz-conventional-changelog": "^2.0.0",
-    "eslint": "^4.1.1"
+    "eslint": "^4.1.1",
+    "sinon": "^2.3.6",
+    "sinon-chai": "^2.11.0"
   }
 }
