@@ -1,3 +1,5 @@
+import { relative } from 'path';
+
 function pattern( file ) {
 	return {
 		pattern: file,
@@ -20,7 +22,7 @@ function isDuplicate( files, file ) {
 		if ( files[ i ] ) {
 			const pattern = files[ i ].pattern;
 
-			result = result || endsWith( path.relative( __dirname, file ) )( pattern );
+			result = result || endsWith( relative( __dirname, file ) )( pattern );
 		}
 	}
 
