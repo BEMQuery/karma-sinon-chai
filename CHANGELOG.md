@@ -6,7 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
-## 2.0.2 – 2018-07-07
+## [2.0.3] – 2017-07-08
+### Fixed
+* Incorrect condition for file inclusion.
+
+## 2.0.2 – 2017-07-07
 ### Fixed
 * Incorrect imports.
 
@@ -28,4 +32,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## v1.0.0
 ### Changed
-* Updated to broken sinon version. Probably doesnt work :bomb:.
+* Updated to broken sinon version. Probably doesnt work :bomb:
+
+[2.0.3]: https://github.com/BEMQuery/karma-sinon-chai/compare/v2.0.2...v2.0.3
+[2.0.2]: https://github.com/BEMQuery/karma-sinon-chai/compare/v2.0.1...v2.0.2
+[2.0.1]: https://github.com/BEMQuery/karma-sinon-chai/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/BEMQuery/karma-sinon-chai/compare/49b33ed97984dcadd87788606ca2131a7a0700da...v2.0.0
