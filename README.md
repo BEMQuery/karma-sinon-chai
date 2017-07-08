@@ -1,31 +1,24 @@
-[![npm version](https://badge.fury.io/js/@bemquery/karma-sinon-chai.png)](http://badge.fury.io/js/@bemquery/karma-sinon-chai) [![Dependency status](https://david-dm.org/BEMQuery/karma-sinon-chai.png)](https://david-dm.org/BEMQuery/karma-sinon-chai) [![devDependency Status](https://david-dm.org/BEMQuery/karma-sinon-chai/dev-status.png)](https://david-dm.org/BEMQuery/karma-sinon-chai?type=dev)
+# @bemquery/karma-sinon-chai
 
-karma-sinon-chai
-================
+[![npm version](https://badge.fury.io/js/%40bemquery%2Fkarma-sinon-chai.svg)](https://badge.fury.io/js/%40bemquery%2Fkarma-sinon-chai) [![Dependency status](https://david-dm.org/BEMQuery/karma-sinon-chai.png)](https://david-dm.org/BEMQuery/karma-sinon-chai) [![devDependency Status](https://david-dm.org/BEMQuery/karma-sinon-chai/dev-status.png)](https://david-dm.org/BEMQuery/karma-sinon-chai?type=dev)
 
-	* [Sinon](http://sinonjs.org/)
-	* [Chai](http://chaijs.com)
-	* [Sinon-Chai](https://github.com/domenic/sinon-chai)
+[Sinon](http://sinonjs.org/) + [Chai](http://chaijs.com) + [Sinon-Chai](https://github.com/domenic/sinon-chai) for [Karma](http://karma-runner.github.io)
 
-for [Karma](http://karma-runner.github.io)
-
-Requirements
-------------
+## Requirements
 
 This Karma plugin requires Karma `>=0.10`
 
-Installation
-------------
+##Installation
 
 Install the module via npm
 
-```sh
+```bash
 $ npm install [--save-dev] @bemquery/karma-sinon-chai
 ```
 
 Add `sinon-chai` to the `frameworks` key in your Karma configuration:
 
-```js
+```javascript
 module.exports = function(config) {
 	'use strict';
 	config.set({
@@ -43,8 +36,7 @@ module.exports = function(config) {
 }
 ```
 
-Usage
------
+## Usage
 
 Each of the different Chai assertion suites is available in the tests:
 
