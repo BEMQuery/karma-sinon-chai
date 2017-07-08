@@ -14,7 +14,7 @@ function framework( files ) {
 	/* Sinon */
 	const sinonPath = `${ dirname( require.resolve( 'sinon/package.json' ) ) }/pkg/sinon.js`;
 
-	if ( checkDuplicate( sinonPath ) ) {
+	if ( !checkDuplicate( sinonPath ) ) {
 		files.unshift( pattern( lolexPath ) );
 		files.unshift( pattern( sinonPath ) );
 	}
@@ -22,7 +22,7 @@ function framework( files ) {
 	/* Chai */
 	const chaiPath = `${ dirname( require.resolve( 'chai/package.json' ) ) }/chai.js`;
 
-	if ( checkDuplicate( chaiPath ) ) {
+	if ( !checkDuplicate( chaiPath ) ) {
 		files.unshift( pattern( chaiPath ) );
 		files.push( pattern( join( __dirname, '../adapters/chai.js' ) ) );
 	}
@@ -30,7 +30,7 @@ function framework( files ) {
 	/* Sinon-Chai */
 	const sinonChaiPath = resolve( require.resolve( 'sinon-chai' ) );
 
-	if ( checkDuplicate( sinonChaiPath ) ) {
+	if ( !checkDuplicate( sinonChaiPath ) ) {
 		files.push( pattern( sinonChaiPath ) );
 	}
 }
