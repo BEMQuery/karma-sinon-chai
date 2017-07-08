@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "lint": "eslint src/**/*.js adapters/**/*.js tests/*.js",
-    "prebuild": "rimraf dist",
+    "prebuild": "npm run lint && rimraf dist",
     "build": "rlb",
     "preversion": "npm run build && git add -f dist/",
     "postversion": "git rm -r --cached dist/ && git commit -m \"chore(dist): clean after release [ci skip]\" && git push origin && git push origin --tags",
