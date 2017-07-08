@@ -2,7 +2,6 @@ import { dirname } from 'path';
 import { join } from 'path';
 import { resolve } from 'path';
 import { pattern } from './utils.js';
-import { endsWith } from './utils.js';
 import { isDuplicate } from './utils.js';
 
 function framework( files ) {
